@@ -73,6 +73,9 @@ function($scope, $stateParams, stockDataService) {
   $scope.chartView = 1;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 3e7915a... broke it
+=======
 >>>>>>> parent of 3e7915a... broke it
 =======
 >>>>>>> parent of 3e7915a... broke it
