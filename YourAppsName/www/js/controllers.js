@@ -60,6 +60,7 @@ angular.module('starter.controllers', [])
   ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }])
 
 .controller('StockCtrl', ['$scope', '$stateParams', 'stockDataService', 'dateService',
@@ -97,6 +98,11 @@ function($scope, $stateParams, stockDataService, dateService) {
           $scope.stockDetailsData = data;
         });
       }
+=======
+})
+
+.controller('PlaylistCtrl', function($scope, $stateParams) {
+>>>>>>> parent of d661979... configured yahoo finance api
 =======
 })
 
