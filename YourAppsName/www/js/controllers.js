@@ -64,14 +64,11 @@ angular.module('starter.controllers', [])
 <<<<<<< HEAD
 }])
 
-.controller('StockCtrl', ['$scope', '$stateParams', 'stockDataService', 'dateService',
-function($scope, $stateParams, stockDataService, dateService) {
+.controller('StockCtrl', ['$scope', '$stateParams', 'stockDataService',
+function($scope, $stateParams, stockDataService) {
 
   $scope.ticker = $stateParams.stockTicker;
   $scope.chartView = 1;
-
-  // console.log(dateService.currentDate());
-  // console.log(dateService.oneYearAgoDate());
 
 
   $scope.$on("$ionicView.afterEnter", function(){
@@ -90,8 +87,6 @@ function($scope, $stateParams, stockDataService, dateService) {
         $scope.stockPriceData = data;
       });
     }
-
-
     function getDetailsData(){
       var promise = stockDataService.getDetailsData($scope.ticker);
         promise.then(function(data){
