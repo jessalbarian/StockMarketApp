@@ -72,6 +72,9 @@ function($scope, $stateParams, stockDataService) {
 =======
   $scope.chartView = 1;
 
+<<<<<<< HEAD
+>>>>>>> parent of 3e7915a... broke it
+=======
 >>>>>>> parent of 3e7915a... broke it
 
   $scope.$on("$ionicView.afterEnter", function(){
