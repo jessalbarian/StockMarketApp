@@ -68,6 +68,11 @@ angular.module('starter.controllers', [])
 function($scope, $stateParams, stockDataService) {
 
   $scope.ticker = $stateParams.stockTicker;
+<<<<<<< HEAD
+=======
+  $scope.chartView = 1;
+
+>>>>>>> parent of 3e7915a... broke it
 
   $scope.$on("$ionicView.afterEnter", function(){
     getPriceData();
